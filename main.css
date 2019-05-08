@@ -1,0 +1,164 @@
+/** {
+    margin: 0;
+}
+*/
+body {
+	background-color: white;
+	background-image: url("bg.png");
+	background-attachment: fixed;
+  	background-position: center;
+ 	background-repeat: no-repeat;
+ 	background-size: cover;
+	text-align: center;
+	margin: 0 auto;
+	/*filter: blur(4px);*/
+  	/*-webkit-filter: blur(4px);*/
+}
+
+#login {
+	font-size: 38px;
+	background-color: white;
+	color: rgb(220,80,80);
+	border-radius: 20px 20px 0px 0px;
+	border: 4px solid rgb(220,80,80);
+	position: fixed;
+  	bottom: 0px;
+	font-family: 'Open Sans', sans-serif;
+	padding: 10px;
+	width: 20%;
+	min-width: 120px;
+	margin: 0% 39%;
+	/*margin-top: 100%;*/
+}
+
+#moreinfo {
+	color: white;
+	margin: 0px;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 20px;
+}
+
+#header {
+	background-color: rgba(255,255,255,.4);
+	width: 60%;
+	min-width: 600px;
+	padding: 0px;
+	padding-bottom: 0px;
+	margin: 0px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	/*border: 5px rgb(220,80,80) solid;*/
+	/*border-radius:  180px 180px 120px 120px;*/
+	border-radius: 50px;
+	display: inline-block;
+
+}
+
+#maintitle {
+	font-size: 32px;
+	color: rgb(210,75,75);
+	padding: 0px;
+	margin: 0px;
+	background-color: rgba(255,255,255,.9);
+	border-radius: 50px 50px 0px 0px;
+}
+
+#filters {
+	width: 100%;
+	display: inline-block;
+
+	padding-bottom: 10px;
+}
+#filters select {
+	width: 30%;
+	background-color: rgb(220,80,80);
+	color: white;
+	font-size: 20px;
+	padding: 15px;
+	
+	border: 1px solid rgb(200,70,70);
+	margin: 10px 3px 0px 3px;
+	cursor: pointer;
+	border-radius: 40px;
+
+}
+
+.card {
+	width: 30%;
+	min-width: 400px;
+	background-color: rgb(210,75,75);
+	display: inline-block;
+	border: 3px rgb(220,60,60) solid;
+	padding: 20px 20px 30px 20px;
+	margin: 10px 20px;
+	color: white;
+	border-radius: 7px;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.card:hover {
+	border: 3px rgb(240,120,120) solid;
+	cursor: pointer;
+}
+
+.back {
+	width: 30%;
+	min-width: 400px;
+	background-color: white;
+	padding: 0px 20px 40px 20px;
+	margin: 10px 20px;
+	color: rgb(210,75,75);
+	border-radius: 7px;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 24px;
+}
+
+.back p {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 20px;
+	margin: 0px;
+	padding: 0px;
+	text-align: center;
+}
+
+.logo {
+	width: 120px;
+	display: inline-block;
+	margin: 13px 0px;
+}
+
+.contact {
+	border-bottom: 2px red solid;
+	font-size: 38px;
+	padding-bottom: 30px;
+	background-color: rgb(210,75,75);
+	color: white;
+}
+
+.gmail {
+	width: 18px;
+	padding-right: 20px;
+}
+
+#title {
+	width: 100%;
+	border-bottom: solid 4px white;
+	margin-top: 0px;
+	margin-bottom: 5px;
+	font-size: 46px;
+
+
+}
+
+#item {
+	background-color: rgb(220,80,80);
+	border: 1px white solid;
+	margin: 0px 10px;
+	padding: 5px 0px ;
+	font-size: 36px;
+	
+}
+
+#back {
+
+}
